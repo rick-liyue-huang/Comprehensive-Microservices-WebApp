@@ -13,4 +13,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\usersService.Core\usersService.Core.csproj" />
+      <ProjectReference Include="..\usersService.Infrastructure\usersService.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -2,10 +2,27 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "usersService.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.2",
           "usersService.Domain": "1.0.0"
         },
         "compile": {
@@ -24,23 +41,41 @@
         "runtime": {
           "bin/placeholder/usersService.Domain.dll": {}
         }
-      },
-      "usersService.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "usersService.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/usersService.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/usersService.Infrastructure.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.2": {
+      "sha512": "zOIurr59+kUf9vNcsUkCvKWZv+fPosUZXURZesYkJCvl0EzTc9F7maAO4Cd2WEV7ZJJ0AZrFQvuH6Npph9wdBw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "usersService.Core/1.0.0": {
       "type": "project",
       "path": "../usersService.Core/usersService.Core.csproj",
@@ -50,17 +85,12 @@
       "type": "project",
       "path": "../usersService.Domain/usersService.Domain.csproj",
       "msbuildProject": "../usersService.Domain/usersService.Domain.csproj"
-    },
-    "usersService.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../usersService.Infrastructure/usersService.Infrastructure.csproj",
-      "msbuildProject": "../usersService.Infrastructure/usersService.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "usersService.Core >= 1.0.0",
-      "usersService.Infrastructure >= 1.0.0"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.2",
+      "usersService.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -69,11 +99,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/usersService.API.csproj",
-      "projectName": "usersService.API",
-      "projectPath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/usersService.API.csproj",
+      "projectUniqueName": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Infrastructure/usersService.Infrastructure.csproj",
+      "projectName": "usersService.Infrastructure",
+      "projectPath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Infrastructure/usersService.Infrastructure.csproj",
       "packagesPath": "/Users/rickhuang668/.nuget/packages/",
-      "outputPath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/",
+      "outputPath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rickhuang668/.nuget/NuGet/NuGet.Config"
@@ -90,9 +120,6 @@
           "projectReferences": {
             "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/usersService.Core.csproj": {
               "projectPath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/usersService.Core.csproj"
-            },
-            "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Infrastructure/usersService.Infrastructure.csproj": {
-              "projectPath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Infrastructure/usersService.Infrastructure.csproj"
             }
           }
         }
@@ -112,6 +139,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[10.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -124,152 +157,13 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
-          "Microsoft.AspNetCore": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
-          "Microsoft.AspNetCore.App": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authentication": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authentication.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authentication.BearerToken": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authentication.Cookies": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authentication.Core": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authentication.OAuth": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authorization": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Authorization.Policy": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Components": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Components.Authorization": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Components.Endpoints": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Components.Forms": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Components.Server": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Components.Web": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Connections.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.CookiePolicy": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Cors": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Cryptography.Internal": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "(,10.0.32767]",
-          "Microsoft.AspNetCore.DataProtection": "(,10.0.32767]",
-          "Microsoft.AspNetCore.DataProtection.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.DataProtection.Extensions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Diagnostics": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Diagnostics.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Diagnostics.HealthChecks": "(,10.0.32767]",
-          "Microsoft.AspNetCore.HostFiltering": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Hosting": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Hosting.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Html.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http.Connections": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http.Connections.Common": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http.Extensions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http.Features": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Http.Results": "(,10.0.32767]",
-          "Microsoft.AspNetCore.HttpLogging": "(,10.0.32767]",
-          "Microsoft.AspNetCore.HttpOverrides": "(,10.0.32767]",
-          "Microsoft.AspNetCore.HttpsPolicy": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Identity": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Localization": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Localization.Routing": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Metadata": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.ApiExplorer": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Core": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Cors": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.DataAnnotations": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Formatters.Json": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Localization": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.Razor": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.RazorPages": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.TagHelpers": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "(,10.0.32767]",
-          "Microsoft.AspNetCore.OutputCaching": "(,10.0.32767]",
-          "Microsoft.AspNetCore.RateLimiting": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Razor": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Razor.Runtime": "(,10.0.32767]",
-          "Microsoft.AspNetCore.RequestDecompression": "(,10.0.32767]",
-          "Microsoft.AspNetCore.ResponseCaching": "(,10.0.32767]",
-          "Microsoft.AspNetCore.ResponseCaching.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.ResponseCompression": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Rewrite": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Routing": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Routing.Abstractions": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.HttpSys": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.IIS": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.IISIntegration": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.Kestrel": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.Kestrel.Core": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Quic": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "(,10.0.32767]",
-          "Microsoft.AspNetCore.Session": "(,10.0.32767]",
-          "Microsoft.AspNetCore.SignalR": "(,10.0.32767]",
-          "Microsoft.AspNetCore.SignalR.Common": "(,10.0.32767]",
-          "Microsoft.AspNetCore.SignalR.Core": "(,10.0.32767]",
-          "Microsoft.AspNetCore.SignalR.Protocols.Json": "(,10.0.32767]",
-          "Microsoft.AspNetCore.StaticAssets": "(,10.0.32767]",
-          "Microsoft.AspNetCore.StaticFiles": "(,10.0.32767]",
-          "Microsoft.AspNetCore.WebSockets": "(,10.0.32767]",
-          "Microsoft.AspNetCore.WebUtilities": "(,10.0.32767]",
           "Microsoft.CSharp": "(,4.7.32767]",
-          "Microsoft.Extensions.Caching.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Caching.Memory": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.Binder": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.CommandLine": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.FileExtensions": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.Ini": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.Json": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.KeyPerFile": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.UserSecrets": "(,10.0.32767]",
-          "Microsoft.Extensions.Configuration.Xml": "(,10.0.32767]",
-          "Microsoft.Extensions.DependencyInjection": "(,10.0.32767]",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Diagnostics": "(,10.0.32767]",
-          "Microsoft.Extensions.Diagnostics.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "(,10.0.32767]",
-          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Features": "(,10.0.32767]",
-          "Microsoft.Extensions.FileProviders.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.FileProviders.Composite": "(,10.0.32767]",
-          "Microsoft.Extensions.FileProviders.Physical": "(,10.0.32767]",
-          "Microsoft.Extensions.FileSystemGlobbing": "(,10.0.32767]",
-          "Microsoft.Extensions.Hosting": "(,10.0.32767]",
-          "Microsoft.Extensions.Hosting.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Http": "(,10.0.32767]",
-          "Microsoft.Extensions.Identity.Core": "(,10.0.32767]",
-          "Microsoft.Extensions.Identity.Stores": "(,10.0.32767]",
-          "Microsoft.Extensions.Localization": "(,10.0.32767]",
-          "Microsoft.Extensions.Localization.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.Abstractions": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.Configuration": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.Console": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.Debug": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.EventLog": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.EventSource": "(,10.0.32767]",
-          "Microsoft.Extensions.Logging.TraceSource": "(,10.0.32767]",
-          "Microsoft.Extensions.ObjectPool": "(,10.0.32767]",
-          "Microsoft.Extensions.Options": "(,10.0.32767]",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "(,10.0.32767]",
-          "Microsoft.Extensions.Options.DataAnnotations": "(,10.0.32767]",
-          "Microsoft.Extensions.Primitives": "(,10.0.32767]",
-          "Microsoft.Extensions.Validation": "(,10.0.32767]",
-          "Microsoft.Extensions.WebEncoders": "(,10.0.32767]",
-          "Microsoft.JSInterop": "(,10.0.32767]",
-          "Microsoft.Net.Http.Headers": "(,10.0.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
           "Microsoft.Win32.Primitives": "(,4.3.32767]",
           "Microsoft.Win32.Registry": "(,5.0.32767]",
@@ -429,7 +323,6 @@
           "System.Diagnostics.Contracts": "(,4.3.32767]",
           "System.Diagnostics.Debug": "(,4.3.32767]",
           "System.Diagnostics.DiagnosticSource": "(,10.0.32767]",
-          "System.Diagnostics.EventLog": "(,10.0.32767]",
           "System.Diagnostics.FileVersionInfo": "(,4.3.32767]",
           "System.Diagnostics.Process": "(,4.3.32767]",
           "System.Diagnostics.StackTrace": "(,4.3.32767]",
@@ -440,7 +333,6 @@
           "System.Drawing.Primitives": "(,4.3.32767]",
           "System.Dynamic.Runtime": "(,4.3.32767]",
           "System.Formats.Asn1": "(,10.0.32767]",
-          "System.Formats.Cbor": "(,10.0.32767]",
           "System.Formats.Tar": "(,10.0.32767]",
           "System.Globalization": "(,4.3.32767]",
           "System.Globalization.Calendars": "(,4.3.32767]",
@@ -516,7 +408,6 @@
           "System.Security.Cryptography.OpenSsl": "(,5.0.32767]",
           "System.Security.Cryptography.Primitives": "(,4.3.32767]",
           "System.Security.Cryptography.X509Certificates": "(,4.3.32767]",
-          "System.Security.Cryptography.Xml": "(,10.0.32767]",
           "System.Security.Principal": "(,4.3.32767]",
           "System.Security.Principal.Windows": "(,5.0.32767]",
           "System.Security.SecureString": "(,4.3.32767]",
@@ -530,7 +421,6 @@
           "System.Threading.AccessControl": "(,10.0.32767]",
           "System.Threading.Channels": "(,10.0.32767]",
           "System.Threading.Overlapped": "(,4.3.32767]",
-          "System.Threading.RateLimiting": "(,10.0.32767]",
           "System.Threading.Tasks": "(,4.3.32767]",
           "System.Threading.Tasks.Dataflow": "(,10.0.32767]",
           "System.Threading.Tasks.Extensions": "(,5.0.32767]",
