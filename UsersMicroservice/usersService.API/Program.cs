@@ -1,3 +1,4 @@
+using usersService.API.Middlewares;
 using usersService.Core;
 using usersService.Infrastructure;
 
@@ -10,6 +11,8 @@ builder.Services.AddControllers();
 
 
 var app = builder.Build();
+
+app.UseExceptionHandlingMiddleware();
 
 app.UseRouting();
 app.UseAuthentication();
