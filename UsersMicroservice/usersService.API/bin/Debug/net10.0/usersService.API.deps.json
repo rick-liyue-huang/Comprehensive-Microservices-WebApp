@@ -7,14 +7,63 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "usersService.API/1.0.0": {
+        "dependencies": {
+          "usersService.Core": "1.0.0",
+          "usersService.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "usersService.API.dll": {}
+        }
+      },
+      "usersService.Core/1.0.0": {
+        "dependencies": {
+          "usersService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "usersService.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "usersService.Domain/1.0.0": {
+        "runtime": {
+          "usersService.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "usersService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "usersService.Core": "1.0.0"
+        },
+        "runtime": {
+          "usersService.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "usersService.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "usersService.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "usersService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "usersService.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

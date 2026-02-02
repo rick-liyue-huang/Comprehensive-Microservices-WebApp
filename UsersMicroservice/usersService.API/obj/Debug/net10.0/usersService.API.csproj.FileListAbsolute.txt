@@ -26,3 +26,12 @@
 /Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/Debug/net10.0/usersService.API.pdb
 /Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/Debug/net10.0/usersService.API.genruntimeconfig.cache
 /Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/Debug/net10.0/ref/usersService.API.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/bin/Debug/net10.0/usersService.Core.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/bin/Debug/net10.0/usersService.Domain.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/bin/Debug/net10.0/usersService.Infrastructure.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/bin/Debug/net10.0/usersService.Core.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/bin/Debug/net10.0/usersService.Infrastructure.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/bin/Debug/net10.0/usersService.Domain.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/Debug/net10.0/usersService.API.csproj.AssemblyReference.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/Debug/net10.0/usersService.API.sourcelink.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/obj/Debug/net10.0/usersSer.1F18F284.Up2Date

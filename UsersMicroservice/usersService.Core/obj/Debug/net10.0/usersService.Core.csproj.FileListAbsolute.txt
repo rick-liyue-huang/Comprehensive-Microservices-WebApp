@@ -1,0 +1,16 @@
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/bin/Debug/net10.0/usersService.Core.deps.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/bin/Debug/net10.0/usersService.Core.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/bin/Debug/net10.0/usersService.Core.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/bin/Debug/net10.0/usersService.Domain.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/bin/Debug/net10.0/usersService.Domain.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.csproj.AssemblyReference.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.AssemblyInfoInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.AssemblyInfo.cs
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.csproj.CoreCompileInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.sourcelink.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersSer.F47033BE.Up2Date
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/refint/usersService.Core.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/usersService.Core.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/obj/Debug/net10.0/ref/usersService.Core.dll

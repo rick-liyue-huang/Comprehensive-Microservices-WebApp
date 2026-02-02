@@ -1,0 +1,12 @@
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/bin/Debug/net10.0/usersService.Domain.deps.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/bin/Debug/net10.0/usersService.Domain.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/bin/Debug/net10.0/usersService.Domain.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.AssemblyInfoInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.AssemblyInfo.cs
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.csproj.CoreCompileInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.sourcelink.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/refint/usersService.Domain.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/usersService.Domain.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Domain/obj/Debug/net10.0/ref/usersService.Domain.dll
