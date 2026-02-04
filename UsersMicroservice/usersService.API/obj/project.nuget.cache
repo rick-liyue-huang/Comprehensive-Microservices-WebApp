@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "o0i3ncDMEiQ=",
+  "dgSpecHash": "lOWPz2bttxk=",
   "success": true,
   "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/usersService.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/rickhuang668/.nuget/packages/automapper/16.0.0/automapper.16.0.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+  ],
   "logs": []
 }
