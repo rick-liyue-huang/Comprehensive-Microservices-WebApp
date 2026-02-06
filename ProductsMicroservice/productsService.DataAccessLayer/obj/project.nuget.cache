@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6aY8sGzvy/Q=",
+  "success": true,
+  "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.DataAccessLayer/productsService.DataAccessLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

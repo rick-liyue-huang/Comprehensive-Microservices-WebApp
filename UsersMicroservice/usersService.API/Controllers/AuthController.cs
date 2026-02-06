@@ -10,7 +10,7 @@ namespace usersService.API.Controllers;
 public class AuthController(IUsersService usersService) : ControllerBase
 {
     // Endpoint to register a new user
-    [Route("register")]
+    [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
         if (request == null)
@@ -28,7 +28,7 @@ public class AuthController(IUsersService usersService) : ControllerBase
         return Ok(response);
     }
 
-    [Route("login")]
+    [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
         if (request == null)

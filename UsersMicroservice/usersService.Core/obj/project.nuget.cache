@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "l8hYhb+iSZY=",
+  "dgSpecHash": "M89n8JlBnIg=",
   "success": true,
   "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.Core/usersService.Core.csproj",
   "expectedPackageFiles": [
     "/Users/rickhuang668/.nuget/packages/automapper/16.0.0/automapper.16.0.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0/microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.extensions.options/10.0.0/microsoft.extensions.options.10.0.0.nupkg.sha512",

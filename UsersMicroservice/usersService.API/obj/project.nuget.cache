@@ -1,16 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "Jzq/HQJbaFE=",
+  "dgSpecHash": "NsaO5Rhr9Zg=",
   "success": true,
   "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/usersService.API/usersService.API.csproj",
   "expectedPackageFiles": [
     "/Users/rickhuang668/.nuget/packages/automapper/16.0.0/automapper.16.0.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
-    "/Users/rickhuang668/.nuget/packages/npgsql/10.0.1/npgsql.10.0.1.nupkg.sha512"
+    "/Users/rickhuang668/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/npgsql/10.0.1/npgsql.10.0.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/swashbuckle.aspnetcore/10.1.2/swashbuckle.aspnetcore.10.1.2.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.2/swashbuckle.aspnetcore.swagger.10.1.2.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.2/swashbuckle.aspnetcore.swaggergen.10.1.2.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.2/swashbuckle.aspnetcore.swaggerui.10.1.2.nupkg.sha512"
   ],
   "logs": []
 }

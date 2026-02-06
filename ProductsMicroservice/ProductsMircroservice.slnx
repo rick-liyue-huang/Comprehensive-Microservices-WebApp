@@ -1,2 +1,5 @@
 <Solution>
+  <Project Path="productsService.API/productsService.API.csproj" />
+  <Project Path="productsService.BusinessLogicLayer/productsService.BusinessLogicLayer.csproj" />
+  <Project Path="productsService.DataAccessLayer/productsService.DataAccessLayer.csproj" />
 </Solution>
