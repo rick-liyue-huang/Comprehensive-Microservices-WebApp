@@ -5,7 +5,7 @@ using productsService.DataAccessLayer;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDataAccessLayer();
+builder.Services.AddDataAccessLayer(builder.Configuration);
 builder.Services.AddBusinessLogicLayer();
 
 builder.Services.AddControllers();
