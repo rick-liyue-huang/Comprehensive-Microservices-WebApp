@@ -1,6 +1,25 @@
+using FluentValidation.AspNetCore;
+using productsService.API.Middlewares;
+using productsService.BusinessLogicLayer;
+using productsService.DataAccessLayer;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDataAccessLayer();
+builder.Services.AddBusinessLogicLayer();
+
+builder.Services.AddControllers();
+builder.Services.AddFluentValidationAutoValidation();
+
+
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.UseExceptionHandlingMiddleware();
+app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.Run();

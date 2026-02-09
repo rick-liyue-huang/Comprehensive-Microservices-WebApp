@@ -1,0 +1,16 @@
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/bin/Debug/net10.0/productsService.BusinessLogicLayer.deps.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/bin/Debug/net10.0/productsService.BusinessLogicLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/bin/Debug/net10.0/productsService.BusinessLogicLayer.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/bin/Debug/net10.0/productsService.DataAccessLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/bin/Debug/net10.0/productsService.DataAccessLayer.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.csproj.AssemblyReference.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.AssemblyInfoInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.AssemblyInfo.cs
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.sourcelink.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/products.DAE7305A.Up2Date
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/refint/productsService.BusinessLogicLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/productsService.BusinessLogicLayer.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.BusinessLogicLayer/obj/Debug/net10.0/ref/productsService.BusinessLogicLayer.dll
