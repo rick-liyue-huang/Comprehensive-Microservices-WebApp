@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using productsService.DataAccessLayer.Context;
+using productsService.DataAccessLayer.Repositories;
+using productsService.DataAccessLayer.RepositoryContracts;
 
 namespace productsService.DataAccessLayer;
 
@@ -17,6 +19,8 @@ public static class DependencyInjection
         {
             options.UseMySQL(configuration.GetConnectionString("DefaultConnection")!);
         });
+
+        services.AddScoped<IProductRepository, ProductRepository>();
         
         return services;
     }
