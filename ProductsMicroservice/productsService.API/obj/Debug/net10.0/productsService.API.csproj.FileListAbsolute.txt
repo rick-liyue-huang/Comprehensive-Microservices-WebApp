@@ -63,3 +63,7 @@
 /Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/runtimes/win-x64/native/krb5_64.dll
 /Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/runtimes/win-x64/native/krbcc64.dll
 /Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMicroservice/productsService.API/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll

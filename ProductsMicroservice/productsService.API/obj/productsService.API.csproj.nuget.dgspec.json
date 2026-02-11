@@ -63,6 +63,10 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.2, )"
             }
           },
           "imports": [

@@ -18,5 +18,9 @@ public class ApplicationDbContext : DbContext
         base.OnModelCreating(modelBuilder);
         
         // modelBuilder.Entity<Product>().ToTable("Products");
+        modelBuilder.Entity<Product>(entity =>
+        {
+            entity.ToTable("products");
+        });
     }
 }
