@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KI0UaaHqFCw=",
+  "success": true,
+  "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/UsersMicroservice.Core/UsersMicroservice.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.3/microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

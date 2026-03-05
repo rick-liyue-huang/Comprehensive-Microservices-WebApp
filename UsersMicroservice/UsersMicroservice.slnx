@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="UsersMicroservice.API/UsersMicroservice.API.csproj" />
+  <Project Path="UsersMicroservice.Core/UsersMicroservice.Core.csproj" />
+  <Project Path="UsersMicroservice.Domain/UsersMicroservice.Domain.csproj" />
+  <Project Path="UsersMicroservice.Infrastructure/UsersMicroservice.Infrastructure.csproj" />
+</Solution>
