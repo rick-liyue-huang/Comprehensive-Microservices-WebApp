@@ -4,6 +4,11 @@ using UsersMicroservice.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
+
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
+
 builder.Services.AddInfrastructure();
 builder.Services.AddCore();
 
