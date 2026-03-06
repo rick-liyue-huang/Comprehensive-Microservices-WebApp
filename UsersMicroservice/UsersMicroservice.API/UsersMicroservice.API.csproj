@@ -18,4 +18,8 @@
       <ProjectReference Include="..\UsersMicroservice.Infrastructure\UsersMicroservice.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="16.1.0" />
+    </ItemGroup>
+
 </Project>
