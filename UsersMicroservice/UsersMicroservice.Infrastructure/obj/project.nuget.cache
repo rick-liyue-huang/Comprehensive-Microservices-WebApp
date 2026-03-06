@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sAfGfDrmS4c=",
+  "dgSpecHash": "tWR1zsWho5E=",
   "success": true,
   "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/UsersMicroservice/UsersMicroservice.Infrastructure/UsersMicroservice.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/rickhuang668/.nuget/packages/automapper/16.1.0/automapper.16.1.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/dapper/2.1.72/dapper.2.1.72.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.extensions.configuration/10.0.3/microsoft.extensions.configuration.10.0.3.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.3/microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
     "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.3/microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",

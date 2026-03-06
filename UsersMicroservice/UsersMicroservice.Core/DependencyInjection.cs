@@ -1,7 +1,9 @@
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using UsersMicroservice.Core.ServiceContracts;
 using UsersMicroservice.Core.Services;
 using Microsoft.Extensions.Configuration;
+using UsersMicroservice.Core.Validators;
 
 namespace UsersMicroservice.Core;
 
@@ -15,6 +17,8 @@ public static class DependencyInjection
             cfg.LicenseKey = autoMapperLicenseKey;
         }, typeof(DependencyInjection).Assembly);
         services.AddScoped<IUsersService, UsersService>();
+        
+        services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();
         
         return services;
     }
