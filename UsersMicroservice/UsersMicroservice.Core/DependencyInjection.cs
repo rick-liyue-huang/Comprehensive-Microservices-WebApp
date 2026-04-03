@@ -1,25 +1,11 @@
-using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using UsersMicroservice.Core.ServiceContracts;
-using UsersMicroservice.Core.Services;
-using Microsoft.Extensions.Configuration;
-using UsersMicroservice.Core.Validators;
 
 namespace UsersMicroservice.Core;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddCore(this IServiceCollection services, IConfiguration configuration)
-    {
-        string autoMapperLicenseKey = configuration["AutoMapper:LicenseKey"]!;
-        services.AddAutoMapper(cfg => 
-        { 
-            cfg.LicenseKey = autoMapperLicenseKey;
-        }, typeof(DependencyInjection).Assembly);
-        services.AddScoped<IUsersService, UsersService>();
-        
-        services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();
-        
-        return services;
-    }
+        public static IServiceCollection AddCore(this IServiceCollection services)
+        {
+            return services;
+        }
 }
