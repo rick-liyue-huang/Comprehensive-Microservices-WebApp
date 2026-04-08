@@ -1,3 +1,4 @@
+using UsersMicroservice.API.Middlewares;
 using UsersMicroservice.Core;
 using UsersMicroservice.Infrastructure;
 
@@ -14,6 +15,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 var app = builder.Build();
+
+app.UseExceptionHandlingMiddleware();
+
 app.UseRouting();
 
 app.UseAuthentication();
