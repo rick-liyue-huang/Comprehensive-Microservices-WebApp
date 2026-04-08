@@ -1,4 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
+using UsersMicroservice.Core.RepositoryContracts;
+using UsersMicroservice.Infrastructure.Repositories;
 
 namespace UsersMicroservice.Infrastructure;
 
@@ -15,6 +17,9 @@ public static class DependencyInjection
     {
         // TODO: Add services to the IoC container 
         // Infrastructure services often include data access, caching , and other lower-layer services.
+
+        services.AddScoped<IUsersRepository, UsersRepository>();
+        
         return services;
     }
 }
