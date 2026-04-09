@@ -1,40 +1,43 @@
-using UsersMicroservice.Core.ServiceContracts;
+using AutoMapper;
 using UsersMicroservice.Core.Dtos;
 using UsersMicroservice.Core.RepositoryContracts;
+using UsersMicroservice.Core.ServiceContracts;
 using UsersMicroservice.Domain.Entities;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace UsersMicroservice.Core.Services;
 
-public class UsersService(IUsersRepository usersRepository) : IUsersService
+public class UsersService(IUsersRepository usersRepository, IMapper mapper) : IUsersService
 {
-	public async Task<AuthenticationResponse?> Login(LoginRequest loginRequest)
-	{
-		ApplicationUser? user = await usersRepository.GetUserByEmailAndPassword(loginRequest.Email, loginRequest.Password);
+  public async Task<AuthenticationResponse?> Login(LoginRequest loginRequest)
+  {
+    ApplicationUser? user = await usersRepository.GetUserByEmailAndPassword(loginRequest.Email, loginRequest.Password);
 
-		if (user == null)
-		{
-		return null;
-		}
+    if (user == null)
+    {
+      return null;
+    }
 
-		return new AuthenticationResponse(user.UserId, user.Email, user.PersonName, user.Gender, "token", Success: true);
-	}
+    // return new AuthenticationResponse(user.UserId, user.Email, user.PersonName, user.Gender, "token", Success: true);
+    return mapper.Map<AuthenticationResponse>(user) with { Success = true, Token = "token" };
+  }
 
-	public async Task<AuthenticationResponse?> Register(RegisterRequest registerRequest)
-	{
-		ApplicationUser user = new ApplicationUser()
-		{
-			PersonName = registerRequest.PersonName,
-			Email = registerRequest.Eamil,
-			Password = registerRequest.Password,
-			Gender = registerRequest.Gender.ToString()
-		};
+  public async Task<AuthenticationResponse?> Register(RegisterRequest registerRequest)
+  {
+    // ApplicationUser user = new ApplicationUser()
+    // {
+    //   PersonName = registerRequest.PersonName,
+    //   Email = registerRequest.Eamil,
+    //   Password = registerRequest.Password,
+    //   Gender = registerRequest.Gender.ToString()
+    // };
 
-		ApplicationUser? registeredUser = await usersRepository.AddUser(user);
+    ApplicationUser user = mapper.Map<ApplicationUser>(registerRequest);
 
-		if (registeredUser == null) return null;
+    ApplicationUser? registeredUser = await usersRepository.AddUser(user);
 
-		return new AuthenticationResponse(registeredUser.UserId, registeredUser.Email, registeredUser.PersonName,
-			registeredUser.Gender, "token", Success: true);
-	}
+    if (registeredUser == null) return null;
+
+    // return new AuthenticationResponse(registeredUser.UserId, registeredUser.Email, registeredUser.PersonName, registeredUser.Gender, "token", Success: true);
+    return mapper.Map<AuthenticationResponse>(registeredUser) with { Success = true, Token = "token" };
+  }
 }
