@@ -1,7 +1,7 @@
 namespace UsersMicroservice.Core.Dtos;
 
 public record RegisterRequest(
-    string? Eamil,
+    string? Email,
     string? Password,
     string? PersonName,
     GenderOptions Gender

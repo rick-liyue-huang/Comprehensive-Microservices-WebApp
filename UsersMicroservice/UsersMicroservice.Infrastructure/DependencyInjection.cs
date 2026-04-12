@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using UsersMicroservice.Core.RepositoryContracts;
 using UsersMicroservice.Infrastructure.Repositories;
+using UsersMicroservice.Infrastructure.DbContext;
 
 namespace UsersMicroservice.Infrastructure;
 
@@ -19,7 +20,8 @@ public static class DependencyInjection
         // Infrastructure services often include data access, caching , and other lower-layer services.
 
         services.AddScoped<IUsersRepository, UsersRepository>();
-        
+        services.AddScoped<DapperDbContext>();
+
         return services;
     }
 }

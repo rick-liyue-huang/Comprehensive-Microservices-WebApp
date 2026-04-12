@@ -26,7 +26,7 @@ public class UsersService(IUsersRepository usersRepository, IMapper mapper) : IU
     // ApplicationUser user = new ApplicationUser()
     // {
     //   PersonName = registerRequest.PersonName,
-    //   Email = registerRequest.Eamil,
+    //   Email = registerRequest.Email,
     //   Password = registerRequest.Password,
     //   Gender = registerRequest.Gender.ToString()
     // };
