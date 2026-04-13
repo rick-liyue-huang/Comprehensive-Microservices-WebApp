@@ -2,5 +2,5 @@ namespace UsersMicroservice.Core.Dtos;
 
 public enum GenderOptions
 {
-    Male, Female, Others
+    Male = 1, Female, Others
 }

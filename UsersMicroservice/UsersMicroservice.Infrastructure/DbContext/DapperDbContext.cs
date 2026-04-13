@@ -1,4 +1,3 @@
-using System.Data;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 
@@ -8,7 +7,7 @@ namespace UsersMicroservice.Infrastructure.DbContext;
 public class DapperDbContext
 {
   private readonly IConfiguration _configuration;
-  private readonly IDbConnection _connection;
+  private readonly NpgsqlConnection _connection;
 
   public DapperDbContext(IConfiguration configuration)
   {
@@ -19,5 +18,5 @@ public class DapperDbContext
     _connection = new NpgsqlConnection(connectionString);
   }
 
-  public IDbConnection DbConnection => _connection;
+  public NpgsqlConnection DbConnection => _connection;
 }

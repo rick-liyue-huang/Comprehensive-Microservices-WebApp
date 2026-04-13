@@ -33,6 +33,13 @@ public class UsersRepository(DapperDbContext dapperDbContext) : IUsersRepository
 
     string query = "SELECT * FROM users WHERE email = @Email AND password = @Password";
 
-    return await dapperDbContext.DbConnection.QueryFirstOrDefaultAsync<ApplicationUser>(query);
+    var parameters = new DynamicParameters();
+    parameters.Add("Email", email);
+    parameters.Add("Password", password);
+
+    ApplicationUser? user =
+      await dapperDbContext.DbConnection.QueryFirstOrDefaultAsync<ApplicationUser>(query, parameters);
+
+    return user;
   }
 }
