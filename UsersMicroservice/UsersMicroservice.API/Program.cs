@@ -4,7 +4,7 @@ using UsersMicroservice.API.Middlewares;
 using UsersMicroservice.Core;
 using UsersMicroservice.Core.Mappers;
 using UsersMicroservice.Infrastructure;
-using Swashbuckle.AspNetCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,5 +57,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
 app.Run();
