@@ -8,7 +8,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c43af1fe-07bd-4ea6-9e4c-954aebd1ffa8" name="Changes" comment="" />
+    <list default="true" id="c43af1fe-07bd-4ea6-9e4c-954aebd1ffa8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProductsService.API/ApiEndpoints/ProductApiEndpoints.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/CategoryOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/ProductAddRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/ProductResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/ProductUpdateRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Mappers/ProductAddRequestToProductMappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Mappers/ProductToProductResponseMappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Mappers/ProductUpdateRequestToProductMappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/ServiceContracts/IProductsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Services/ProductsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Validators/ProductAddRequestValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Validators/ProductUpdateRequestValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsersMicroservice/.idea/.idea.UsersMicroservice/.idea/awsToolkit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProductsMicroService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProductsMicroService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/Middlewares/ExceptionHandlingMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/Middlewares/ExceptionHandlingMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/ProductsService.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/ProductsService.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/Debug/net10.0/ProductsService.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/ProductsService.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/ProductsService.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/ProductsService.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/ProductsService.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/Debug/net10.0/ProductsService.BusinessLogicLayer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/ProductsService.BusinessLogicLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/ProductsService.BusinessLogicLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/ProductsService.BusinessLogicLayer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/ProductsService.BusinessLogicLayer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/ProductsService.BusinessLogicLayer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/ProductsService.BusinessLogicLayer.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.BusinessLogicLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/Context/ProductDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/Context/ProductDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/ProductsService.DataAccessLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/ProductsService.DataAccessLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/Repositories/ProductsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/Repositories/ProductsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/RepositoryContracts/IProductsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/RepositoryContracts/IProductsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/ProductsService.DataAccessLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/ProductsService.DataAccessLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/ProductsService.DataAccessLayer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/ProductsService.DataAccessLayer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/ProductsService.DataAccessLayer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/ProductsService.DataAccessLayer.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductsService.DataAccessLayer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/Debug/net10.0/UsersMicroservice.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/Debug/net10.0/UsersMicroservice.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/Debug/net10.0/UsersMicroservice.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/Debug/net10.0/UsersMicroservice.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/Debug/net10.0/UsersMicroservice.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/Debug/net10.0/UsersMicroservice.Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/Debug/net10.0/UsersMicroservice.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/Debug/net10.0/UsersMicroservice.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Core/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/Debug/net10.0/UsersMicroservice.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/Debug/net10.0/UsersMicroservice.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/Debug/net10.0/UsersMicroservice.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/Debug/net10.0/UsersMicroservice.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/Debug/net10.0/UsersMicroservice.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/Debug/net10.0/UsersMicroservice.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/Debug/net10.0/UsersMicroservice.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/Debug/net10.0/UsersMicroservice.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../UsersMicroservice/UsersMicroservice.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,20 +95,42 @@
       <entry key="_/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice" value="3CLeTWW0vjkl0QSy8YQrin6dOoa" />
     </persistenceIdMap>
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1" />
+    <option name="cachedIndexableFilesCount" value="18" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ae62ba349516ed6ffc77677754e3f3813337894f9d942dfa80ae3055c49/WebApplication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.API/ApiEndpoints/ProductApiEndpoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.API/Middlewares/ExceptionHandlingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/CategoryOptions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/ProductAddRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Dtos/ProductUpdateRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Mappers/ProductAddRequestToProductMappingProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Mappers/ProductToProductResponseMappingProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Mappers/ProductUpdateRequestToProductMappingProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/ServiceContracts/IProductsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Services/ProductsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.BusinessLogicLayer/Validators/ProductUpdateRequestValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.DataAccessLayer/Context/ProductDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.DataAccessLayer/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.DataAccessLayer/Entities/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProductsService.DataAccessLayer/Repositories/ProductsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3CLeTWW0vjkl0QSy8YQrin6dOoa" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,32 +139,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ProductsService.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1778191221476" />
-    <option name="spentUsd" value="0.0139035" />
+    <option name="spentUsd" value="0.079941556" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="9" />
+    <option name="suspendCountdown" value="0" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ProductsService.API: http">
     <configuration name="ProductsService.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -123,7 +223,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -135,6 +238,8 @@
       <option name="presentableId" value="Default" />
       <updated>1776169286192</updated>
       <workItem from="1776169288088" duration="1422000" />
+      <workItem from="1776569554591" duration="17839000" />
+      <workItem from="1776596599966" duration="5619000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,13 @@
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/bin/Debug/net10.0/ProductsService.DataAccessLayer.deps.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/bin/Debug/net10.0/ProductsService.DataAccessLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/bin/Debug/net10.0/ProductsService.DataAccessLayer.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.csproj.AssemblyReference.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.AssemblyInfoInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.AssemblyInfo.cs
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.sourcelink.json
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/refint/ProductsService.DataAccessLayer.dll
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ProductsService.DataAccessLayer.pdb
+/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/ProductsMircoservice/ProductsService.DataAccessLayer/obj/Debug/net10.0/ref/ProductsService.DataAccessLayer.dll
