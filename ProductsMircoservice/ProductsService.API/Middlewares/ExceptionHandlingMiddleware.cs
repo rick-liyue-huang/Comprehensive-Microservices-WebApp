@@ -19,9 +19,9 @@ public class ExceptionHandlingMiddleware
         }
         catch (Exception e)
         {
-            if (e != null)
+            if (e.InnerException != null)
             {
-                _logger.LogError("{ExceptionType} {ExceptionMessage}", e.GetType().Name, e.Message);
+                _logger.LogError("{ExceptionType} {ExceptionMessage}", e.InnerException.GetType().Name, e.InnerException.Message);
             }
             else
             {

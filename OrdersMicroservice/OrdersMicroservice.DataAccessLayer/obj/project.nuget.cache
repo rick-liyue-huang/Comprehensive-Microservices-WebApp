@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GDt9hz5dOns=",
+  "success": true,
+  "projectFilePath": "/Users/rickhuang668/Projects/Comprehensive-Microservices-WebApp/OrdersMicroservice/OrdersMicroservice.DataAccessLayer/OrdersMicroservice.DataAccessLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.configuration/10.0.6/microsoft.extensions.configuration.10.0.6.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.6/microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.6/microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.primitives/10.0.6/microsoft.extensions.primitives.10.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
