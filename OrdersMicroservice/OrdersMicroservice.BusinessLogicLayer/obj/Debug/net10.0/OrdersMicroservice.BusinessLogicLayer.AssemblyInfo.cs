@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrdersMicroservice.BusinessLogicLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22f67aadbc4e57ff2e46d3baf385e79c7e7afd50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3834361389be912fb332400ba23f35b66ca6f8df")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrdersMicroservice.BusinessLogicLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrdersMicroservice.BusinessLogicLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
