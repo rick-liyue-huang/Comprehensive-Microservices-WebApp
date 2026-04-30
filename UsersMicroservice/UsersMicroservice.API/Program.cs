@@ -1,60 +1,34 @@
-using System.Text.Json.Serialization;
-using FluentValidation.AspNetCore;
-using UsersMicroservice.API.Middlewares;
-using UsersMicroservice.Core;
-using UsersMicroservice.Core.Mappers;
-using UsersMicroservice.Infrastructure;
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddInfrastructure();
-builder.Services.AddCore();
-
-builder.Services.AddControllers().AddJsonOptions(options =>
-{
-  options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
-});
-
-builder.Services.AddAutoMapper(cfg => { cfg.LicenseKey = builder.Configuration["AutoMapper:licenseKey"]; },
-  typeof(ApplicationUserMappingProfile).Assembly);
-
-builder.Services.AddFluentValidationAutoValidation();
-
-builder.Services.AddEndpointsApiExplorer();
-
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddCors(options =>
-{
-  options.AddPolicy("AllowAll",
-      policy =>
-      {
-        policy.AllowAnyOrigin()
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-      });
-});
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
 var app = builder.Build();
 
-app.UseExceptionHandlingMiddleware();
+// Configure the HTTP request pipeline.
 
-app.UseRouting();
-app.UseSwagger();
-app.UseSwaggerUI();
+app.UseHttpsRedirection();
 
-app.UseCors();
+var summaries = new[]
+{
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+};
 
-app.UseAuthentication();
-app.UseAuthorization();
-
-
-
-app.MapControllers();
+app.MapGet("/weatherforecast", () =>
+{
+    var forecast =  Enumerable.Range(1, 5).Select(index =>
+        new WeatherForecast
+        (
+            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+            Random.Shared.Next(-20, 55),
+            summaries[Random.Shared.Next(summaries.Length)]
+        ))
+        .ToArray();
+    return forecast;
+});
 
 app.Run();
+
+record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+{
+    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+}
